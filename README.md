@@ -24,8 +24,7 @@ MediReach is an AI-powered telemedicine platform designed to provide **accessibl
    ```
 2. Open `index.html` in a browser or deploy on a hosting service.
 
-## 📞 Contact
-For any queries or collaborations, reach out to us at **support@medireach.com**.
+
 
 ---
 **Empowering Healthcare Access for Everyone!** 🌍💙
