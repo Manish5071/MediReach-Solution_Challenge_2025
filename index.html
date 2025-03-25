@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthcare for All</title>
+    <title>MediReach - Healthcare for All</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -27,18 +28,31 @@
         </ul>
     </section>
     
-    <section id="tech">
-        <h2>Technologies Used</h2>
-        <p>Built using AI, Blockchain, Google Cloud, and Gemini APIs for smart healthcare solutions.</p>
+    <section id="symptom-checker">
+        <h2>Check Your Symptoms</h2>
+        <input type="text" id="symptoms" placeholder="Enter symptoms...">
+        <button onclick="analyzeSymptoms()">Analyze</button>
+        <p id="symptom-result"></p>
+    </section>
+    
+    <section id="video-consultation">
+        <h2>Book a Doctor Consultation</h2>
+        <button onclick="startConsultation()">Start Video Call</button>
+    </section>
+    
+    <section id="pharmacy-locator">
+        <h2>Find Nearby Pharmacies</h2>
+        <button onclick="findPharmacy()">Locate Pharmacy</button>
+        <p id="pharmacy-result"></p>
     </section>
     
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: support@healthcareforall.com</p>
+        <p>Email: support@medireach.com</p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Healthcare for All. All Rights Reserved.</p>
+        <p>&copy; 2025 MediReach. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
